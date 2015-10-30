@@ -1,0 +1,72 @@
+<!-- Layout of the high score-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cisc181.PenguinSamurai.HighScore"
+    android:weightSum="1"
+    android:background="#ffff6052"
+    >
+    <!-- 5 text view that display the first 5 highest scores and first the title-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=  "@string/highScoreBtnStr"
+        android:layout_weight="0.03"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:textColor="#FF003FFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="1. "
+        android:textSize="30sp"
+        android:textColor="#ff003fff"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:id="@+id/one"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="2. "
+        android:textSize="30sp"
+        android:textColor="#ff003fff"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:id="@+id/two"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="3. "
+        android:textSize="30sp"
+        android:textColor="#ff003fff"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:id="@+id/three"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="4. "
+        android:textSize="30sp"
+        android:textColor="#ff003fff"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:id="@+id/four"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/five"
+        android:text="5. "
+        android:textSize="30sp"
+        android:textColor="#ff003fff"
+        android:padding="@dimen/activity_horizontal_margin"/>
+
+
+
+
+</LinearLayout>

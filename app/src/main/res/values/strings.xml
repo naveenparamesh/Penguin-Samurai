@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Penguin Samurai</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="mainTitle">Penguin Samurai!</string>
+    <string name="startBtnStr">Start</string>
+    <string name="highScoreBtnStr">High Score</string>
+    <string name="optionsBtnStr">Options</string>
+    <string name="title_activity_high_score">HighScore</string>
+    <string name="highScore">HighScore</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_options">OptionsActivity</string>
+    <string name="Options_title">Options</string>
+    <string name="Easy">Easy</string>
+    <string name="Medium">Medium</string>
+    <string name="Hard">Hard</string>
+    <string name="Indent">HaH</string>
+
+</resources>

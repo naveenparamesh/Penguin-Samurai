@@ -1,0 +1,133 @@
+<!-- Linear layout for the options-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cisc181.PenguinSamurai.OptionsActivity"
+    android:orientation="vertical"
+    android:background="#ff39a2ff">
+    <!-- Adds Title-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="@string/Options_title"
+        android:layout_gravity="center_horizontal"/>
+    <!-- Nests another layout for each of the radiobuttons-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Indent"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:gravity="center_vertical"
+            android:id="@+id/easy"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/Easy"
+            android:padding="@dimen/activity_horizontal_margin"/>
+
+    </LinearLayout>
+    <!-- Nests  layout for next radio button-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Indent"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:gravity="center_vertical"
+            android:id="@+id/medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/Medium"
+            android:padding="@dimen/activity_horizontal_margin"/>
+
+     </LinearLayout>
+    <!-- Nests another layout for next radio button-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Indent"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:gravity="center_vertical"
+            android:id="@+id/hard"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/Hard"
+            android:padding="@dimen/activity_horizontal_margin"/>
+
+
+    </LinearLayout>
+    <!-- Instructions-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Instructions"
+        android:layout_gravity="center_horizontal"/>
+    <!-- Implements a scrolling behavior to read the app-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="25sp"
+            android:id="@+id/instructions"/>
+
+        </ScrollView>
+
+
+
+</LinearLayout>

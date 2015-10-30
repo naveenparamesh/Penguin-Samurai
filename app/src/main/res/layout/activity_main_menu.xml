@@ -1,0 +1,56 @@
+<!-- Layout of main menu-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/mainmenubackground"
+    android:id="@+id/mainmenu"
+    >
+    <!-- Text view and image view are invisble views to offset the button-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTitle"
+        android:layout_gravity="center"
+        android:textSize="65sp"
+        android:gravity="center"
+        android:visibility="invisible"
+        />
+
+
+
+    <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="75dp"
+       android:src="@drawable/sword"
+       android:layout_gravity="center"
+       android:scaleType="center"
+       android:visibility="invisible"
+        />
+
+    <!-- The three buttons are the start, high score, and options button-->
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/startButton"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/startBtnStr"
+        />
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/highScoreButton"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/highScoreBtnStr"/>
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/optionsButton"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/optionsBtnStr"/>
+
+
+
+</LinearLayout>
